@@ -1,3 +1,5 @@
+package VariaveisTipagem;
+
 public class variaveistipagemdd {
         public static void main(String[] args) { // PSVM
 

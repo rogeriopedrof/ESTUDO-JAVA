@@ -19,11 +19,11 @@ public class ifelse {
         * 2. Determina a CONDIÇÃO entre parênteses
         * 3. Poem o RESULTADO entre chaves
         *
-        * 1. Declara o else if (Se não)
+        * 1. Declara o else if (Ou Então)
         * 2. Determina uma CONDIÇÃO entre parênteses
         * 3. Poem o RESULTADO entre chaves
         *
-        * 1. Declara o else (Então)
+        * 1. Declara o else (Se não)
         * 2. Poem o RESULTADO entre parênteses
         * */
 

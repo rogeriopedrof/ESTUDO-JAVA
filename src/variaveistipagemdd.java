@@ -7,7 +7,7 @@ public class variaveistipagemdd {
             /* Sixtaxe de Variaveis
              * 1. Tipo da Variavel
              * 2. Nome da Variavel (Codificador)
-             * 3. SInal de Atribuição
+             * 3. Sinal de Atribuição
              * 4. Valor da Variavel
              * 5. Fechamento com Ponto de Virgula.
              * */

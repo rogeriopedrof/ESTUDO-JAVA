@@ -5,9 +5,9 @@ public class desafio01 {
 
         // GUERREIRO1
         String nome = "Piccolo";
-        int PL = 15;
+        float PL = 1.3f;
         String missao = " Derrotar Raditz";
-        String status = "Em andamento, Unido à Goku";
+        String status = "Unido à Goku, Piccolo carrega seu Makankosapo afim de MATAR Raditz.";
         char ND = 'C';
 
         System.out.println("----------------------------------");
@@ -20,9 +20,9 @@ public class desafio01 {
 
         // GUERREIRO2
         String nome2 = "Tenshihan";
-        int PL2 = 18;
+        float PL2 = 1.8f;
         String missao2 = " Derrotar Nappa";
-        String status2 = "Em andamento, Unido à Chaos";
+        String status2 = "Sozinho e ferido, Tenshinhan dá seus últimos esforços a fim de vingar seu amigo e DETER esse MONSTRO SAIYAJIN.";
         char ND2 = 'B';
 
         System.out.println("----------------------------------");
@@ -35,9 +35,9 @@ public class desafio01 {
 
         // GUERREIRO3
         String nome3 = "Goku";
-        int PL3 = 24;
+        float PL3 = 30.0f;
         String missao3 = " Derrotar Vegeta";
-        String status3 = "Em andamento, Unido à todos os guerreiros Z";
+        String status3 = "Munido da poderosa Genki-dama, Goku se prepara para o julgo final de Vegeta.";
         char ND3 = 'A';
 
         System.out.println("----------------------------------");
@@ -51,43 +51,43 @@ public class desafio01 {
         System.out.println("----------------------------------");
 
 
-        System.out.println("Resultado das Lutas:\n");
+        System.out.println("Resultado das Lutas:\n"); // '\n' quebra a linha!
 
-        if (PL < 15) {
-            if (ND == 'C' || ND == 'B') {
-                status = "1.Raditz foi DERROTADO";
+        if (PL > 1.2) {
+            if (ND == 'B' || ND == 'A' || ND == 'S') {
+                status = "1.Piccolo foi DERROTADO com facilidade!";
                 System.out.println(status);
             } else {
-                status = "1.Piccolo foi DERROTADO";
+                status = "1.Raditz foi DERROTADO";
                 System.out.println(status);
             }
         } else {
-            status = "1.Raditz é DERROTADO com facilidade!";
+            status = "1.Piccolo foi DERROTADO";
             System.out.println(status);
         }
 
-        if (PL2 >= 18) {
-            if (ND2 == 'A') {
+        if (PL2 > 7.0) {
+            if (ND2 == 'A' || ND == 'S') { //OPs lógicos: && (and), ||(ou) e !(not)
+                status2 = "2.Tenshihan foi DERROTADO com facilidade!";
+                System.out.println(status2);
+            } else {
                 status2 = "2.Nappa foi DERROTADO";
                 System.out.println(status2);
-            } else {
-                status2 = "2.Tenshihan foi DERROTADO";
-                System.out.println(status2);
             }
         } else {
-            status2 = "2.Nappa foi DERROTADO com facilidade!";
+            status2 = "2.Tenshihan foi DERROTADO";
             System.out.println(status2);
         }
-        if (PL3 > 23) {
-            if (ND3 == 'A') {
-                status3 = "3.Vegeta foi DERROTADO";
+        if (PL3 > 16.0) {
+            if (ND3 == 'S') {
+                status3 = "3.Goku foi DERROTADO com facilidade!";
                 System.out.println(status3);
             } else {
-                status3 = "3.Goku foi DERROTADO";
+                status3 = "3.Vegeta foi DERROTADO";
                 System.out.println(status3);
             }
         } else {
-            status3 = "3.Vegeta foi DERROTADO com facilidade";
+            status3 = "3.Goku foi DERROTADO";
             System.out.println(status3);
         }
     }

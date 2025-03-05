@@ -53,7 +53,7 @@ public class desafio01 {
 
         System.out.println("Resultado das Lutas:\n"); // '\n' quebra a linha!
 
-        if (PL > 1.2) {
+        if (PL < 1.4) {
             if (ND == 'B' || ND == 'A' || ND == 'S') { //OPs lógicos: && (and), ||(ou) e !(not)
                 status = "1.Piccolo foi DERROTADO com facilidade!";
                 System.out.println(status);
@@ -62,23 +62,23 @@ public class desafio01 {
                 System.out.println(status);
             }
         } else {
-            status = "1.Piccolo foi DERROTADO";
+            status = "1.Raditz foi DERROTADO com facilidade!";
             System.out.println(status);
         }
 
-        if (PL2 > 7.0) {
+        if (PL2 < 8.0) {
             if (ND2 == 'A' || ND == 'S') {
-                status2 = "2.Tenshihan foi DERROTADO com facilidade!";
+                status2 = "2.Tenshinhan foi DERROTADO com facilidade!";
                 System.out.println(status2);
             } else {
                 status2 = "2.Nappa foi DERROTADO";
                 System.out.println(status2);
             }
         } else {
-            status2 = "2.Tenshihan foi DERROTADO";
+            status2 = "2.Nappa foi DERROTADO com facilidade!";
             System.out.println(status2);
         }
-        if (PL3 > 16.0) {
+        if (PL3 < 17.0) {
             if (ND3 == 'S') {
                 status3 = "3.Goku foi DERROTADO com facilidade!";
                 System.out.println(status3);
@@ -87,7 +87,7 @@ public class desafio01 {
                 System.out.println(status3);
             }
         } else {
-            status3 = "3.Goku foi DERROTADO";
+            status3 = "3.Vegeta foi DERROTADO com facilidade!";
             System.out.println(status3);
         }
     }

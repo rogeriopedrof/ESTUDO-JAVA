@@ -60,6 +60,7 @@ public class desafio01 {
          * nível superior ao esperado. Caso isso aconteça, o guerreiro é derrotado facilmente. Agora, se o guerreiro
          * tiver um poder superior a X, ele vence facilmente.
          */
+
         if (PL < 2.3) {
             if (ND == 'B' || ND == 'A' || ND == 'S') { //OPs lógicos: && (and), ||(ou) e !(not)
                 status = "1.Piccolo foi DERROTADO com facilidade!";

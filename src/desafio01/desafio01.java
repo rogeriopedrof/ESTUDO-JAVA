@@ -7,7 +7,7 @@ public class desafio01 {
         String nome = "Piccolo";
         float PL = 1.3f;
         String missao = " Derrotar Raditz";
-        String status = "Unido à Goku, Piccolo carrega seu Makankosapo afim de MATAR Raditz.";
+        String status = "Unido a Goku, Piccolo carrega seu Makankosapo afim de MATAR Raditz.";
         char ND = 'C';
 
         System.out.println("----------------------------------");
@@ -37,7 +37,7 @@ public class desafio01 {
         String nome3 = "Goku";
         float PL3 = 30.0f;
         String missao3 = " Derrotar Vegeta";
-        String status3 = "Munido da poderosa Genki-dama, Goku se prepara para o julgo final de Vegeta.";
+        String status3 = "Munido da poderosa Genki-dama, Goku prepara o julgo final de Vegeta.";
         char ND3 = 'A';
 
         System.out.println("----------------------------------");
@@ -54,7 +54,7 @@ public class desafio01 {
         System.out.println("Resultado das Lutas:\n"); // '\n' quebra a linha!
 
         if (PL > 1.2) {
-            if (ND == 'B' || ND == 'A' || ND == 'S') {
+            if (ND == 'B' || ND == 'A' || ND == 'S') { //OPs lógicos: && (and), ||(ou) e !(not)
                 status = "1.Piccolo foi DERROTADO com facilidade!";
                 System.out.println(status);
             } else {
@@ -67,7 +67,7 @@ public class desafio01 {
         }
 
         if (PL2 > 7.0) {
-            if (ND2 == 'A' || ND == 'S') { //OPs lógicos: && (and), ||(ou) e !(not)
+            if (ND2 == 'A' || ND == 'S') {
                 status2 = "2.Tenshihan foi DERROTADO com facilidade!";
                 System.out.println(status2);
             } else {

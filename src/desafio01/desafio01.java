@@ -75,7 +75,7 @@ public class desafio01 {
         }
 
         if (PL2 < 8.0) {
-            if (ND2 == 'A' || ND == 'S') {
+            if (ND2 == 'B' || ND2 == 'A' || ND == 'S') {
                 status2 = "2.Tenshinhan foi DERROTADO com facilidade!";
                 System.out.println(status2);
             } else {

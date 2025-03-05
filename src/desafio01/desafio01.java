@@ -41,6 +41,7 @@ public class desafio01 {
         }
         System.out.println("---------------------------------- \n");
 
+
         // GUERREIRO2
         String nome2 = "Tenshihan";
         float PL2 = 1.8f;
@@ -69,6 +70,7 @@ public class desafio01 {
             System.out.println(status2);
         }
         System.out.println("----------------------------------\n");
+
 
         // GUERREIRO3
         String nome3 = "Goku";

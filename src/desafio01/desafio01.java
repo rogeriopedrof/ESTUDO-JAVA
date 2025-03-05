@@ -19,7 +19,6 @@ public class desafio01 {
         String status = "Unido a Goku, Piccolo carrega seu Makankosapo afim de MATAR Raditz.";
         char ND = 'C';
 
-
         System.out.println("Nome do Guerreiro: " + nome);
         System.out.println("Poder de luta: " + PL);
         System.out.println("Missão: " + missao);
@@ -49,7 +48,6 @@ public class desafio01 {
         String status2 = "Sozinho e ferido, Tenshinhan dá seus últimos esforços a fim de vingar seu amigo e DETER esse MONSTRO SAIYAJIN.";
         char ND2 = 'B';
 
-
         System.out.println("Nome do Guerreiro: " + nome2);
         System.out.println("Poder de luta: " + PL2);
         System.out.println("Missão: " + missao2);
@@ -78,7 +76,6 @@ public class desafio01 {
         String missao3 = " Derrotar Vegeta";
         String status3 = "Munido da poderosa Genki-dama, Goku prepara o julgo final de Vegeta.";
         char ND3 = 'A';
-
 
         System.out.println("Nome do Guerreiro: " + nome3);
         System.out.println("Poder de luta: " + PL3);

@@ -27,6 +27,8 @@ public class desafio01 {
         System.out.println("Status da missão: " + status);
         System.out.println("Nível de dificuldade: " + ND);
 
+        System.out.println("----------------------------------");
+
         if (PL < 2.3) {
             if (ND == 'B' || ND == 'A' || ND == 'S') { //OPs lógicos: && (and), ||(ou) e !(not)
                 status = "1.Piccolo foi DERROTADO com facilidade!";
@@ -55,6 +57,8 @@ public class desafio01 {
         System.out.println("Missão: " + missao2);
         System.out.println("Status da missão: " + status2);
         System.out.println("Nível de dificuldade: " + ND2);
+
+        System.out.println("----------------------------------");
 
         if (PL2 < 8.0) {
             if (ND2 == 'B' || ND2 == 'A' || ND == 'S') {
@@ -87,10 +91,6 @@ public class desafio01 {
 
         System.out.println("----------------------------------");
 
-
-        System.out.println("Resultado das Lutas:\n"); // '\n' quebra a linha!
-
-
         if (PL3 < 17.0) {
             if (ND3 == 'S') {
                 status3 = "3.Goku foi DERROTADO com facilidade!";
@@ -103,5 +103,7 @@ public class desafio01 {
             status3 = "3.Vegeta foi DERROTADO com facilidade!";
             System.out.println(status3);
         }
+        System.out.println("----------------------------------");
+
     }
 }
